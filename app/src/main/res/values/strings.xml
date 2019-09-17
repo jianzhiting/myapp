@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="content">HappyBirthday</string>
+    <string name="name">Deng:</string>
+    <string name="ps">(Click! Switch to what you want most)</string>
+    <string name="toast">I will buy it for you next year!</string>
+
+    <string name="out">Halo</string>
+    <string name="btn">Button</string>
+    <string name="hint">pls input</string>
+
+</resources>
