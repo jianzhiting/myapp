@@ -29,7 +29,7 @@ public class WeekTwo extends AppCompatActivity implements View.OnClickListener{
 
     @Override
     public void onClick(View view) {
-        Log.i(TAG,"btn");
+        Log.i(TAG,"onclick");
         str = inp.getText().toString();
         out.setText(str);
     }
