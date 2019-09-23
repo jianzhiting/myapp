@@ -8,5 +8,17 @@
     <string name="out">Halo</string>
     <string name="btn">Button</string>
     <string name="hint">pls input</string>
+    <string name="title">Temperature converter</string>
+    <string name="hinttemp">Pls input</string>
+    <string name="transfertoC">transfertoC</string>
+    <string name="transfertoF">transfertoC</string>
+    <string name="outtemp">result showing...</string>
+    <string name="one">+1 Point</string>
+    <string name="two">+2 Point</string>
+    <string name="three">+3 Point</string>
+    <string name="TeamA">TeamA</string>
+    <string name="reset">0</string>
+    <string name="btnRst">Reset</string>
+    <string name="TeamB">TeamB</string>
 
 </resources>

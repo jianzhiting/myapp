@@ -8,4 +8,16 @@
     <string name="out">你好</string>
     <string name="btn">按钮</string>
     <string name="hint">请输入内容</string>
+    <string name="title">温度转换器</string>
+    <string name="hinttemp">请输入待转换温度</string>
+    <string name="transfertoC">转为摄氏度</string>
+    <string name="transfertoF">转为华摄氏度</string>
+    <string name="outtemp">结果展示</string>
+    <string name="two">+2 分</string>
+    <string name="one">+1 分</string>
+    <string name="three">+3 分</string>
+    <string name="TeamA">A组</string>
+    <string name="reset">0</string>
+    <string name="btnRst">重置</string>
+    <string name="TeamB">B组</string>
 </resources>
