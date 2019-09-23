@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="16dp"
+android:gravity="center_horizontal"
+tools:context=".ExchangeRate">
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/exchangeRate"
+    android:textSize="20sp"
+    android:layout_marginBottom="50dp"/>
+
+    <EditText
+        android:id="@+id/inp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/hint"
+        android:inputType="number"
+        android:textSize="30sp" />
+
+    <TextView
+    android:id="@+id/out"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/out"
+    android:textSize="30sp"
+    android:layout_marginBottom="40dp"/>
+
+    <Button
+    android:id="@+id/btn2dollar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:layout_marginBottom="10dp"
+    android:text="@string/btn2dollar" />
+
+    <Button
+    android:id="@+id/btn2euro"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:layout_marginBottom="10dp"
+    android:text="@string/btn2euro" />
+
+    <Button
+    android:id="@+id/btn2won"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:layout_marginBottom="10dp"
+    android:text="@string/btn2won" />
+
+</LinearLayout>

@@ -5,8 +5,7 @@
     <string name="ps">(Click! Switch to what you want most)</string>
     <string name="toast">I will buy it for you next year!</string>
 
-    <string name="out">Halo</string>
-    <string name="btn">Button</string>
+    <string name="out">Result:</string>
     <string name="hint">pls input</string>
     <string name="title">Temperature converter</string>
     <string name="hinttemp">Pls input</string>
@@ -20,5 +19,9 @@
     <string name="reset">0</string>
     <string name="btnRst">Reset</string>
     <string name="TeamB">TeamB</string>
+    <string name="exchangeRate">Exchange Rate Converter</string>
+    <string name="btn2dollar">convert to dollar</string>
+    <string name="btn2euro">convert to euro</string>
+    <string name="btn2won">convert to won</string>
 
 </resources>

@@ -11,16 +11,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".HelloWorld">
+        <activity android:name=".ScoreIndicator">
+
+        </activity>
+        <activity android:name=".TempetatureConverter"></activity>
+        <activity android:name=".ExchangeRate" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WeekThree"></activity>
-        <activity android:name=".WeekTwo" ></activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".BirthdayCard">
+
+        </activity>
     </application>
 
 </manifest>

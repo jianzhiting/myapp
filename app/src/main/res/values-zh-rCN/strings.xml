@@ -5,9 +5,8 @@
     <string name="name">洁哥：</string>
     <string name="ps">（点击切换为最想要的蛋糕）</string>
     <string name="toast">明年给你买</string>
-    <string name="out">你好</string>
-    <string name="btn">按钮</string>
-    <string name="hint">请输入内容</string>
+    <string name="out">结果：</string>
+    <string name="hint">请输入：  元</string>
     <string name="title">温度转换器</string>
     <string name="hinttemp">请输入待转换温度</string>
     <string name="transfertoC">转为摄氏度</string>
@@ -20,4 +19,8 @@
     <string name="reset">0</string>
     <string name="btnRst">重置</string>
     <string name="TeamB">B组</string>
+    <string name="exchangeRate">汇率转换器</string>
+    <string name="btn2dollar">转换为美元</string>
+    <string name="btn2euro">转换为欧元</string>
+    <string name="btn2won">转换为韩元</string>
 </resources>
