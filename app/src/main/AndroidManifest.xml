@@ -14,19 +14,17 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ExchangeRateConfig"></activity>
+        <activity android:name=".ExchangeRateConfig"/>
         <activity android:name=".ScoreIndicator">
-
-        </activity>
-        <activity android:name=".TempetatureConverter" />
-        <activity android:name=".ExchangeRate">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BirthdayCard"></activity>
+        <activity android:name=".TempetatureConverter" />
+        <activity android:name=".ExchangeRate"/>
+        <activity android:name=".BirthdayCard"/>
     </application>
 
     <uses-permission android:name="android.permission.INTERNET"/>

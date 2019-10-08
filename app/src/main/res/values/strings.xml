@@ -29,5 +29,6 @@
     <string name="dollarRate">RMB to Dollar echange rate</string>
     <string name="euroRate">RMB to Euro exchange rate</string>
     <string name="wonRate">RMB to Won exchange rate</string>
+    <string name="updateRate">Rate has already updated</string>
 
 </resources>

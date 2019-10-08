@@ -53,7 +53,10 @@ public class ExchangeRate extends AppCompatActivity implements Runnable{
 
             switch (msg.what){
                 case 1:
-                    Log.i(TAG, "message: " + bd.getFloat("euro_rate_save_key", 0.1408f));
+                    dollarRate = bd.getFloat("dollar_rate_save_key", 0.1408f);
+                    euroRate = bd.getFloat("euro_rate_save_key", 0.1278f);
+                    wonRate = bd.getFloat("won_rate_save_key", 168.0834f);
+                    Toast.makeText(ExchangeRate.this, R.string.updateRate, Toast.LENGTH_SHORT).show();
                     break;
                 default:
                     Log.i("here", "message: HandlerClass default");
@@ -151,7 +154,19 @@ public class ExchangeRate extends AppCompatActivity implements Runnable{
                     for(int i=0; i<tds.size(); i+=5){
                         Element td1 = tds.get(i);
                         String str1 = td1.text();
-                        Log.i(TAG, "run: str1:" + str1);
+                        int cnt = 1;
+                        String str2 = "-";
+                        while (str2.equals("-")){
+                            str2 = tds.get(cnt+i).text();
+                            cnt++;
+                        }
+                        Log.i(TAG, "run: " + str1 + " " + str2);
+                        if(str1.equals("美元"))
+                            dollar_rate = 100f/Float.parseFloat(str2);
+                        if(str1.equals("欧元"))
+                            euro_rate = 100f/Float.parseFloat(str2);
+                        if(str1.equals("韩币"))
+                            won_rate = 100f/Float.parseFloat(str2);
                     }
 
                 } catch (IOException e){
@@ -162,6 +177,13 @@ public class ExchangeRate extends AppCompatActivity implements Runnable{
                 bd.putFloat("dollar_rate_save_key", dollar_rate);
                 bd.putFloat("euro_rate_save_key", euro_rate);
                 bd.putFloat("won_rate_save_key", won_rate);
+
+                SharedPreferences sp = getSharedPreferences("myrate", MODE_PRIVATE);
+                SharedPreferences.Editor ed = sp.edit();
+                ed.putFloat("dollarRate_key", dollarRate);
+                ed.putFloat("euroRate_key", euroRate);
+                ed.putFloat("wonRate_key", wonRate);
+                ed.commit();
 
                 Message msg = mHandler.obtainMessage(1);
                 msg.obj = bd;
