@@ -58,4 +58,11 @@ tools:context=".ExchangeRate">
     android:layout_marginBottom="10dp"
     android:text="@string/btn2won" />
 
+    <Button
+        android:id="@+id/btnconfig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnconfig"
+        android:textSize="20sp"/>
+
 </LinearLayout>

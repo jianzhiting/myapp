@@ -23,4 +23,10 @@
     <string name="btn2dollar">转换为美元</string>
     <string name="btn2euro">转换为欧元</string>
     <string name="btn2won">转换为韩元</string>
+    <string name="btnconfig">配置汇率</string>
+    <string name="configtitle">手动配置汇率</string>
+    <string name="configSave">保存</string>
+    <string name="dollarRate">美元汇率</string>
+    <string name="euroRate">欧元汇率</string>
+    <string name="wonRate">韩元汇率</string>
 </resources>

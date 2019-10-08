@@ -10,7 +10,7 @@
     <string name="title">Temperature converter</string>
     <string name="hinttemp">Pls input</string>
     <string name="transfertoC">transfertoC</string>
-    <string name="transfertoF">transfertoC</string>
+    <string name="transfertoF">transfertoF</string>
     <string name="outtemp">result showing...</string>
     <string name="one">+1 Point</string>
     <string name="two">+2 Point</string>
@@ -23,5 +23,11 @@
     <string name="btn2dollar">convert to dollar</string>
     <string name="btn2euro">convert to euro</string>
     <string name="btn2won">convert to won</string>
+    <string name="btnconfig">Config</string>
+    <string name="configtitle">config exchange rate</string>
+    <string name="configSave">Save</string>
+    <string name="dollarRate">RMB to Dollar echange rate</string>
+    <string name="euroRate">RMB to Euro exchange rate</string>
+    <string name="wonRate">RMB to Won exchange rate</string>
 
 </resources>
