@@ -3,30 +3,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.jane.myapp">
 
-<!-- android:usesCleartextTraffic="true" 解决不能明文访问问题  -->
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ExchangeRateConfig"/>
+        <activity android:name=".RateList"></activity>
+        <activity android:name=".ExchangeRateConfig" />
         <activity android:name=".ScoreIndicator">
+
+        </activity>
+        <activity android:name=".TempetatureConverter" />
+        <activity android:name=".ExchangeRate">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TempetatureConverter" />
-        <activity android:name=".ExchangeRate"/>
-        <activity android:name=".BirthdayCard"/>
+        <activity android:name=".BirthdayCard" />
     </application>
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

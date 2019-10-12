@@ -29,6 +29,7 @@ import java.io.Reader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.security.spec.ECField;
 
 import javax.net.ssl.HttpsURLConnection;
 
@@ -117,6 +118,15 @@ public class ExchangeRate extends AppCompatActivity implements Runnable{
             @Override
             public void onClick(View view) {
                 openConfigPage();
+            }
+        });
+
+        Button btnshowrate = findViewById(R.id.btnshowrate);
+        final Intent showrate = new Intent(ExchangeRate.this, RateList.class);
+        btnshowrate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(showrate);
             }
         });
     }

@@ -30,5 +30,6 @@
     <string name="euroRate">RMB to Euro exchange rate</string>
     <string name="wonRate">RMB to Won exchange rate</string>
     <string name="updateRate">Rate has already updated</string>
+    <string name="btnshowrate">Show Rates</string>
 
 </resources>

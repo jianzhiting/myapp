@@ -63,6 +63,14 @@ tools:context=".ExchangeRate">
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btnconfig"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnshowrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnshowrate"
+        android:textSize="20sp" />
 
 </LinearLayout>
