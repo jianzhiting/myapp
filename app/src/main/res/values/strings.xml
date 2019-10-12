@@ -31,5 +31,6 @@
     <string name="wonRate">RMB to Won exchange rate</string>
     <string name="updateRate">Rate has already updated</string>
     <string name="btnshowrate">Show Rates</string>
+    <string name="rateListTitle">real time rate show</string>
 
 </resources>
