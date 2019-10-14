@@ -207,6 +207,14 @@ public class ExchangeRate extends AppCompatActivity implements Runnable{
         return super.onOptionsItemSelected(item);
     }
 
+    private void openConfigPage() {
+        config.putExtra("dollar_rate_key", dollarRate);
+        config.putExtra("euro_rate_key", euroRate);
+        config.putExtra("won_rate_key", wonRate);
+
+        startActivityForResult(config, 1);
+    }
+
     private String inputStream2String(InputStream in) throws IOException {
         final int bufferSize = 1024;
         final char[] buffer = new char[bufferSize];
@@ -220,15 +228,6 @@ public class ExchangeRate extends AppCompatActivity implements Runnable{
         }
         return out.toString();
     }
-
-    private void openConfigPage() {
-        config.putExtra("dollar_rate_key", dollarRate);
-        config.putExtra("euro_rate_key", euroRate);
-        config.putExtra("won_rate_key", wonRate);
-
-        startActivityForResult(config, 1);
-    }
-
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
 
