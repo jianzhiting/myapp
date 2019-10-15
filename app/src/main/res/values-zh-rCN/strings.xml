@@ -32,4 +32,6 @@
     <string name="updateRate">汇率已及时更新</string>
     <string name="btnshowrate">显示汇率</string>
     <string name="rateListTitle">实时汇率</string>
+    <string name="singleSubmit">确认提交</string>
+    <string name="preview">请稍作等待</string>
 </resources>

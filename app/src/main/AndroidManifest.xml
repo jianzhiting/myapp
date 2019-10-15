@@ -12,11 +12,10 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".RateList"></activity>
+        <activity android:name=".ExchangeRateSingle"></activity>
+        <activity android:name=".RateList" />
         <activity android:name=".ExchangeRateConfig" />
-        <activity android:name=".ScoreIndicator">
-
-        </activity>
+        <activity android:name=".ScoreIndicator"></activity>
         <activity android:name=".TempetatureConverter" />
         <activity android:name=".ExchangeRate">
             <intent-filter>

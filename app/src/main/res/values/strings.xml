@@ -32,5 +32,7 @@
     <string name="updateRate">Rate has already updated</string>
     <string name="btnshowrate">Show Rates</string>
     <string name="rateListTitle">real time rate show</string>
+    <string name="singleSubmit">Submit</string>
+    <string name="preview">Please wait...</string>
 
 </resources>
