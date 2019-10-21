@@ -57,6 +57,12 @@ public class ExchangeRate extends AppCompatActivity implements Runnable{
                     dollarRate = bd.getFloat("dollar_rate_save_key", 0.1408f);
                     euroRate = bd.getFloat("euro_rate_save_key", 0.1278f);
                     wonRate = bd.getFloat("won_rate_save_key", 168.0834f);
+                    SharedPreferences sp = getSharedPreferences("myrate", MODE_PRIVATE);
+                    SharedPreferences.Editor ed = sp.edit();
+                    ed.putFloat("dollarRate_key", dollarRate);
+                    ed.putFloat("euroRate_key", euroRate);
+                    ed.putFloat("wonRate_key", wonRate);
+                    ed.commit();
                     Toast.makeText(ExchangeRate.this, R.string.updateRate, Toast.LENGTH_SHORT).show();
                     break;
                 default:
@@ -187,13 +193,6 @@ public class ExchangeRate extends AppCompatActivity implements Runnable{
                 bd.putFloat("dollar_rate_save_key", dollar_rate);
                 bd.putFloat("euro_rate_save_key", euro_rate);
                 bd.putFloat("won_rate_save_key", won_rate);
-
-                SharedPreferences sp = getSharedPreferences("myrate", MODE_PRIVATE);
-                SharedPreferences.Editor ed = sp.edit();
-                ed.putFloat("dollarRate_key", dollarRate);
-                ed.putFloat("euroRate_key", euroRate);
-                ed.putFloat("wonRate_key", wonRate);
-                ed.commit();
 
                 Message msg = mHandler.obtainMessage(1);
                 msg.obj = bd;
