@@ -34,4 +34,7 @@
     <string name="rateListTitle">实时汇率</string>
     <string name="singleSubmit">确认提交</string>
     <string name="preview">请稍作等待</string>
+    <string name="BirthdayCard">贺卡</string>
+    <string name="ExchangeRate">汇率</string>
+    <string name="ScoreIndicator">计分</string>
 </resources>

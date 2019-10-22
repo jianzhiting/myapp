@@ -34,5 +34,10 @@
     <string name="rateListTitle">real time rate show</string>
     <string name="singleSubmit">Submit</string>
     <string name="preview">Please wait...</string>
+    <string name="BirthdayCard">BirthdayCard</string>
+    <string name="ExchangeRate">ExchangeRate</string>
+    <string name="ScoreIndicator">ScoreIndicator</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
 
 </resources>
