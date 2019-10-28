@@ -12,22 +12,23 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".FirstFragment"></activity>
-        <activity android:name=".FragmentActivity">
+        <activity android:name=".ViewPage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".FirstFragment" />
+        <activity android:name=".FragmentActivity">
+
+        </activity>
         <activity android:name=".ExchangeRateSingle" />
         <activity android:name=".RateList" />
         <activity android:name=".ExchangeRateConfig" />
         <activity android:name=".ScoreIndicator" />
         <activity android:name=".TempetatureConverter" />
-        <activity android:name=".ExchangeRate">
-
-        </activity>
+        <activity android:name=".ExchangeRate"></activity>
         <activity android:name=".BirthdayCard" />
     </application>
 
